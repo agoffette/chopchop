@@ -55,10 +55,12 @@ body {
 
 .header {
 background: #fefff4;
-font-family: NeueHaas-Medium;
-font-size: 14px;
+font-family: NeueHaas-BoldItalic;
+font-size: 20px;
 color: black;
 height: 100vh;
 display:flex;
 flex-direction:column;
+justify-content:center;
+align-items:center;
 }
