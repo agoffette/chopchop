@@ -49,9 +49,16 @@ font-family: NeueHaas-ThinItalic;
 src: url(css/fonts/NeueHaasDisplay-ThinItalic.ttf);
 }
 
+body {
+  margin: 0;
+}
+
 .header {
 background: #fefff4;
 font-family: NeueHaas-Medium;
 font-size: 14px;
 color: black;
+height: 100vh;
+display:flex;
+flex-direction:column;
 }
