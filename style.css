@@ -77,12 +77,26 @@ align-items:center;
 
 #title {
 font-family: NeueHaas-BoldItalic;
-font-size: 35px;
+font-size: 45px;
 text-decoration: none;
-background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-transition: background-size .5s;
+background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
+transition: background-size .3s;
 }
 
 #title:hover {
-background-size: 100% 100%;
+background-size: 0 100%;
+color: #fff51f;
+}
+
+.liste-savoir {
+font-family: NeueHaas-Medium;
+font-size: 50px;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+#savoir {
+font-size: 50px;
+margin:7px;
 }
