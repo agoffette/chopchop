@@ -68,4 +68,14 @@ align-items:center;
 .savoirfaire {
 background: black;
 color:#fefff4;
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.savoirfaire h1 {
+font-family: NeueHaas-BoldItalic;
+font-size: 20px;
 }
