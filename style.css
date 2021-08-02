@@ -48,3 +48,10 @@ src: url(css/fonts/NeueHaasDisplay-RomanItalic.ttf);
 font-family: NeueHaas-ThinItalic;
 src: url(css/fonts/NeueHaasDisplay-ThinItalic.ttf);
 }
+
+.header {
+background: #fefff4;
+font-family: NeueHaas-Medium;
+font-size: 14px;
+color: black;
+}
