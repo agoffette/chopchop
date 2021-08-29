@@ -76,8 +76,8 @@ align-items:center;
 }
 
 @keyframes souligne {
-  from {background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;}
-  to {background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 0 100%;}
+  from {background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 0 100%;}
+  to {background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;}
 }
 
 #title {
@@ -85,7 +85,8 @@ font-family: NeueHaas-BoldItalic;
 font-size: 45px;
 text-decoration: none;
 animation-name: souligne;
-animation-duration: .3s;
+animation-duration: .5s;
+animation-fill-mode: forwards;
 }
 
 .liste-savoir {
