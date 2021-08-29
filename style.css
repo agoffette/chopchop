@@ -88,11 +88,6 @@ animation-name: souligne;
 animation-duration: .3s;
 }
 
-#title:hover {
-background-size: 0 100%;
-color: #fff51f;
-}
-
 .liste-savoir {
 font-family: NeueHaas-Medium;
 font-size: 50px;
