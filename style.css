@@ -87,6 +87,7 @@ text-decoration: none;
 animation-name: souligne;
 animation-duration: .5s;
 animation-fill-mode: forwards;
+color: #fff51f;
 }
 
 .liste-savoir {
