@@ -119,12 +119,22 @@ align-items: center;
 
 .pourquoi-chopchop {
 font-family: NeueHaas-BoldItalic;
-font-size: 45px;
 margin: 5vw;
+}
+
+.pourquoi-chopchop h1 {
+font-family: NeueHaas-BoldItalic;
+font-size: 45px;
 text-decoration: none;
 animation: souligne infinite;
 animation-duration: 1s;
 animation-fill-mode: forwards;
+}
+
+.pourquoi-chopchop h2 {
+font-family: NeueHaas-BoldItalic;
+font-size: 30px;
+text-decoration: none;
 }
 
 .txt-pourquoi-chopchop {
