@@ -85,7 +85,7 @@ font-family: NeueHaas-BoldItalic;
 font-size: 45px;
 text-decoration: none;
 animation: souligne infinite;
-animation-duration: .5s;
+animation-duration: 1.3s;
 animation-fill-mode: forwards;
 color: #fff51f;
 }
