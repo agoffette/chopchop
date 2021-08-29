@@ -84,7 +84,7 @@ align-items:center;
 font-family: NeueHaas-BoldItalic;
 font-size: 45px;
 text-decoration: none;
-animation-name: souligne;
+animation: souligne infinite;
 animation-duration: .5s;
 animation-fill-mode: forwards;
 color: #fff51f;
