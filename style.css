@@ -111,11 +111,16 @@ color: rgba(255, 138, 250, 1);
 .pourquoi {
 background: #fefff4;
 color: black;
+height: 40vh;
+display: inline-flex;
+justify-content: center;
+align-items: center;
 }
 
 .pourquoi-chopchop {
 font-family: NeueHaas-BoldItalic;
 font-size: 45px;
+margin: 5vw;
 text-decoration: none;
 animation: souligne infinite;
 animation-duration: 1s;
