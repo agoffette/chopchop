@@ -108,16 +108,21 @@ margin:20px;
 color: rgba(255, 138, 250, 1);
 }
 
-#cta {
-font-family: NeueHaas-BoldItalic;
-font-size: 60px;
-color: #fff51f;
-text-decoration: none;
-background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 0 100%;
-transition: background-size .3s;
+.pourquoi {
+background: #fefff4;
+color: black;
 }
 
-#cta:hover {
-background-size: 100% 100%;
-color: #fefff4;
+.pourquoi-chopchop {
+font-family: NeueHaas-BoldItalic;
+font-size: 45px;
+text-decoration: none;
+animation: souligne infinite;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+
+.txt-pourquoi-chopchop {
+font-family: NeueHaas-Medium;
+font-size: 18px;
 }
