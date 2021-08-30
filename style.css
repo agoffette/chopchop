@@ -86,11 +86,11 @@ align-items:center;
 
 @media screen and (max-width:750px) {
   .pourquoi {
+    height:80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:80vh;
   }
   .txt-pourquoi-chopchop {
     margin: 13vw;
