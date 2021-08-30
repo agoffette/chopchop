@@ -101,11 +101,11 @@ body {
   width: 40%;
 }
 
-#title {
-font-family: NeueHaas-BoldItalic;
-font-size: 45px;
-text-decoration: none;
-background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
+.title {
+  font-family: NeueHaas-BoldItalic;
+  font-size: 45px;
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
 }
 
 .savoirfaire {
@@ -208,3 +208,17 @@ background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 25
   background: #fefff4;
   height: 30px;
 }
+
+.confiance {
+  background: black;
+  color: white;
+  padding: 7vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-logos {
+  display: flex;
+  flex-direction: row;
+}
+
