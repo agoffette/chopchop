@@ -164,25 +164,34 @@ font-size: 18px;
 margin-right: 7vw;
 }
 
-.responsable {
+.pourquoi-box {
   padding: 40px 0;
-  background: #fff74a;
   display:flex;
   flex-direction: column;
   justify-content:center;
 }
 
-.responsable h1 {
+#box-titre {
   font-family: NeueHaas-BoldItalic;
   font-size: 30px;
   margin: 0 7vw;
 }
 
-.responsable p {
+#box-p {
   font-family: NeueHaas-Medium;
   font-size: 18px;
   margin: 1vw 7vw,
 }
 
-  
-  
+.responsable {
+  background: #fff74a;
+}
+
+.maieutique {
+  background:rgba(255, 138, 250, 1);
+}
+
+.pourquoi-break {
+  background: #fefff4;
+  height: 30px;
+}
