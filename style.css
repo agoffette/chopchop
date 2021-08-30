@@ -68,6 +68,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
   }
   .pourquoi-chopchop {
     margin: 0 !important;
@@ -141,7 +142,7 @@ background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 25
 
 .pourquoi-chopchop {
   font-family: NeueHaas-BoldItalic;
-  margin: 7vw 0;
+  margin: 0 7vw;
 }
 
 .pourquoi-chopchop h1 {
@@ -165,7 +166,7 @@ background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 25
 .txt-pourquoi-chopchop {
   font-family: NeueHaas-Medium;
   font-size: 18px;
-  margin-right: 7vw;
+  margin: 7vw;
 }
 
 .pourquoi-box {
