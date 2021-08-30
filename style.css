@@ -76,8 +76,12 @@ align-items:center;
 }
 
 @keyframes souligne {
-  from {background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 0 100%;}
-  to {background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;}
+  from {background: linear-gradient(to top, rgba(255, 247, 74, 1) 0%, rgba(255, 247, 74, 1) 40%, transparent 40.01%) no-repeat left bottom / 0 100%;}
+  to {background: linear-gradient(to top, rgba(255, 247, 74, 1) 0%, rgba(255, 247, 74, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;}
+}
+
+.highlight {
+  background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
 }
 
 #title {
