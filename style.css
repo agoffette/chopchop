@@ -49,6 +49,8 @@ font-family: NeueHaas-ThinItalic;
 src: url(css/fonts/NeueHaasDisplay-ThinItalic.ttf);
 }
 
+-------------------------------------------------------
+
 body {
   margin: 0;
 }
@@ -78,10 +80,11 @@ body {
     margin: 40px;
   }
   #ChopChoplogo {
-  width: 75%;
+    width: 75%;
   }
 }
 
+---------------------------------------------------------------
 
 .header {
   background: #fefff4;
@@ -117,12 +120,11 @@ background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 25
 }
 
 .liste-savoir {
-  font-family: NeueHaas-Medium;
-  font-size: 50px;
   text-align:center;
 }
 
 .liste-savoir p {
+  font-family: NeueHaas-Medium;
   font-size: 45px;
   margin:20px;
 }
