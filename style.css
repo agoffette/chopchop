@@ -86,7 +86,6 @@ align-items:center;
 
 @media screen and (max-width:750px) {
   .pourquoi {
-    height:80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,10 +94,6 @@ align-items:center;
   .txt-pourquoi-chopchop {
     margin: 13vw;
     text-align:center;
-  }
-  .savoirfaire {
-    height:80vh;
-    
   }
 }
 
@@ -109,6 +104,10 @@ font-size: 45px;
 text-decoration: none;
 background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
 }
+
+.savoirfaire {
+    padding: 60px 0;
+  }
 
 .liste-savoir {
 font-family: NeueHaas-Medium;
@@ -131,7 +130,6 @@ color: rgba(255, 138, 250, 1);
 .pourquoi {
 background: #fefff4;
 color: black;
-height: 50vh;
 display: inline-flex;
 justify-content: center;
 align-items: center;
