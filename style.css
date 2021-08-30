@@ -183,11 +183,19 @@ margin-right: 7vw;
   margin: 1vw 7vw;
 }
 
-#responsable #laser {
+#responsable {
   background: #fff74a;
 }
 
-#maieutique #greenwashing {
+#maieutique {
+  background:rgba(255, 138, 250, 1);
+}
+
+#laser {
+  background: #fff74a;
+}
+
+#greenwashing {
   background:rgba(255, 138, 250, 1);
 }
 
