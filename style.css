@@ -75,16 +75,13 @@ body {
     margin: 13vw;
     text-align:center;
   }
-  .liste-savoir p {
+  .liste-savoir {
     font-size: 23px;
-    margin: 40px;
   }
   #ChopChoplogo {
     width: 75%;
   }
 }
-
----------------------------------------------------------------
 
 .header {
   background: #fefff4;
@@ -120,12 +117,12 @@ background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 25
 }
 
 .liste-savoir {
+  font-family: NeueHaas-Medium;
+  font-size: 45px;
   text-align:center;
 }
 
 .liste-savoir p {
-  font-family: NeueHaas-Medium;
-  font-size: 45px;
   margin:20px;
 }
 
