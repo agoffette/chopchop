@@ -109,7 +109,7 @@ color: rgba(255, 138, 250, 1);
 .pourquoi {
 background: #fefff4;
 color: black;
-height: 40vh;
+height: 50vh;
 display: inline-flex;
 justify-content: center;
 align-items: center;
@@ -141,4 +141,5 @@ justify-content: center;
 .txt-pourquoi-chopchop {
 font-family: NeueHaas-Medium;
 font-size: 18px;
+margin-right: 7vw;
 }
