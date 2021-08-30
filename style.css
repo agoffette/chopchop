@@ -84,9 +84,7 @@ align-items:center;
 font-family: NeueHaas-BoldItalic;
 font-size: 45px;
 text-decoration: none;
-animation: souligne infinite;
-animation-duration: 1s;
-animation-fill-mode: forwards;
+background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
 color: #fff51f;
 }
 
@@ -126,9 +124,7 @@ margin: 7vw;
 font-family: NeueHaas-BoldItalic;
 font-size: 55px;
 text-decoration: none;
-animation: souligne infinite;
-animation-duration: 1s;
-animation-fill-mode: forwards;
+background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
 margin: 0;
 }
 
