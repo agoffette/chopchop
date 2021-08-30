@@ -226,5 +226,8 @@ body {
 
 .partner-logo {
   filter: brightness(0) invert(1);
+  width: 17vw;
+  padding:40px;
+  padding-top:0;
 }
 
