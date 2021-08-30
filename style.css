@@ -53,28 +53,6 @@ body {
   margin: 0;
 }
 
-.header {
-background: #fefff4;
-font-family: NeueHaas-BoldItalic;
-font-size: 35px;
-color: black;
-height: 100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-}
-
-.savoirfaire {
-background: black;
-color:#fefff4;
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-}
-
 @keyframes souligne {
   from {background: linear-gradient(to top, rgba(255, 247, 74, 1) 0%, rgba(255, 247, 74, 1) 40%, transparent 40.01%) no-repeat left bottom / 0 100%;}
   to {background: linear-gradient(to top, rgba(255, 247, 74, 1) 0%, rgba(255, 247, 74, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;}
@@ -95,8 +73,31 @@ align-items:center;
     margin: 13vw;
     text-align:center;
   }
+  .liste-savoir p {
+    font-size: 23px;
+    margin: 40px;
+  }
+  #ChopChoplogo {
+  width: 75%;
+  }
 }
 
+
+.header {
+  background: #fefff4;
+  font-family: NeueHaas-BoldItalic;
+  font-size: 35px;
+  color: black;
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+#ChopChoplogo {
+  width: 40%;
+}
 
 #title {
 font-family: NeueHaas-BoldItalic;
@@ -106,62 +107,65 @@ background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 25
 }
 
 .savoirfaire {
-    padding: 60px 0;
-  }
+  background: black;
+  color:#fefff4;
+  padding: 60px 0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
 
 .liste-savoir {
-font-family: NeueHaas-Medium;
-font-size: 50px;
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
+  font-family: NeueHaas-Medium;
+  font-size: 50px;
+  text-align:center;
 }
 
 .liste-savoir p {
-font-size: 4vw;
-margin:20px;
+  font-size: 45px;
+  margin:20px;
 }
 
 .liste-savoir p:hover {
-color: rgba(255, 138, 250, 1);
+  color: rgba(255, 138, 250, 1);
 }
 
 .pourquoi {
-background: #fefff4;
-color: black;
-display: inline-flex;
-justify-content: center;
-align-items: center;
+  background: #fefff4;
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pourquoi-chopchop {
-font-family: NeueHaas-BoldItalic;
-margin: 7vw;
+  font-family: NeueHaas-BoldItalic;
+  margin: 7vw;
 }
 
 .pourquoi-chopchop h1 {
-font-family: NeueHaas-BoldItalic;
-font-size: 55px;
-text-decoration: none;
-background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
-margin: 0;
+  font-family: NeueHaas-BoldItalic;
+  font-size: 55px;
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
+  margin: 0;
 }
 
 .pourquoi-chopchop h2 {
-font-family: NeueHaas-BoldItalic;
-font-size: 30px;
-text-decoration: none;
-margin:-16px;
-display:flex;
-align-items:center;
-justify-content: center;
+  font-family: NeueHaas-BoldItalic;
+  font-size: 30px;
+  text-decoration: none;
+  margin:-16px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
 }
 
 .txt-pourquoi-chopchop {
-font-family: NeueHaas-Medium;
-font-size: 18px;
-margin-right: 7vw;
+  font-family: NeueHaas-Medium;
+  font-size: 18px;
+  margin-right: 7vw;
 }
 
 .pourquoi-box {
