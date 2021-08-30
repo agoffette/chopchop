@@ -163,3 +163,24 @@ font-family: NeueHaas-Medium;
 font-size: 18px;
 margin-right: 7vw;
 }
+
+.responsable {
+  padding: 60px 0;
+  background: #fff74a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.responsable h1 {
+  font-family: NeueHaas-BoldItalic;
+  font-size: 30px;
+}
+
+.responsable p {
+  font-family: NeueHaas-Medium;
+  font-size: 18px;
+}
+
+  
+  
