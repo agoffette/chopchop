@@ -84,6 +84,25 @@ align-items:center;
   background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
 }
 
+@media screen and (max-width:750px) {
+  .pourquoi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+  }
+  .txt-pourquoi-chopchop {
+    margin: 13vw;
+    text-align:center;
+  }
+  .savoirfaire {
+    height:80vh;
+    
+  }
+}
+
+
 #title {
 font-family: NeueHaas-BoldItalic;
 font-size: 45px;
