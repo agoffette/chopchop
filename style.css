@@ -84,7 +84,13 @@ body {
     width: 75% !important;
   }
   .box-logos {
-    flex-direction: column;
+    flex-direction: column !important; 
+  }
+  .partner-logo {
+    width: 20vh !important;
+  }
+  .confiance {
+    height: 100vh;
   }
 }
 
@@ -234,5 +240,10 @@ body {
   width: 17vw;
   padding:40px;
   padding-top:0;
+}
+
+.title-confiance {
+  text-align: center;
+  margin-bottom: 80px;
 }
 
