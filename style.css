@@ -92,6 +92,9 @@ body {
   .confiance {
     height: 100vh;
   }
+  #title-confiance {
+    background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 40%;
+  }
 }
 
 .header {
