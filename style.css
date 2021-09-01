@@ -83,6 +83,9 @@ body {
   #ChopChoplogo {
     width: 75% !important;
   }
+  #ChopChoplogo-fin {
+    width: 30% !important;
+  }
   .box-logos {
     flex-direction: column !important; 
   }
@@ -250,3 +253,30 @@ body {
   margin-bottom: 80px;
 }
 
+.contact {
+  background: #fefff4;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-p {
+   font-family: NeueHaas-Medium;
+   font-size: 18px;
+}
+
+.contact-links {
+  margin: 60px;
+}
+
+.contact-type {
+  font-family: NeueHaas-BoldItalic;
+  font-size: 30px;
+  padding: 30px;
+}
+
+#ChopChoplogo-fin {
+  width: 10%;
+}
