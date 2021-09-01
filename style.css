@@ -253,6 +253,10 @@ body {
   margin-bottom: 80px;
 }
 
+#title-contact {
+  margin-top: 70px;
+}
+
 .contact {
   background: #fefff4;
   color: black;
@@ -265,18 +269,19 @@ body {
 #contact-p {
    font-family: NeueHaas-Medium;
    font-size: 18px;
+   padding: 40px;
+  text-align: center;
 }
 
 .contact-links {
-  margin: 60px;
 }
 
 .contact-type {
   font-family: NeueHaas-BoldItalic;
   font-size: 30px;
-  padding: 30px;
 }
 
 #ChopChoplogo-fin {
   width: 10%;
+  margin-top: 70px;
 }
