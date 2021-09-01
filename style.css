@@ -83,6 +83,9 @@ body {
   #ChopChoplogo {
     width: 75% !important;
   }
+  .box-logos {
+    flex-direction: column;
+  }
 }
 
 .header {
@@ -222,6 +225,8 @@ body {
 .box-logos {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .partner-logo {
