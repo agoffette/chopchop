@@ -279,6 +279,8 @@ body {
 .contact-type {
   font-family: NeueHaas-BoldItalic;
   font-size: 30px;
+  text-align: center;
+  justify-content: center;
 }
 
 #ChopChoplogo-fin {
