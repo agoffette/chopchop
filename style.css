@@ -266,14 +266,10 @@ body {
   align-items: center;
 }
 
-#contact-p {
-   font-family: NeueHaas-Medium;
-   font-size: 18px;
-   padding: 40px;
-  text-align: center;
-}
-
 .contact-links {
+  padding: 40px;
+  display: flex;
+  flex-direction: column; 
 }
 
 .contact-type {
@@ -281,9 +277,16 @@ body {
   font-size: 30px;
   text-align: center;
   justify-content: center;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+.contact-type:hover {
+  color: rgba(255, 138, 250, 1);
+  font-size: 45px;
 }
 
 #ChopChoplogo-fin {
   width: 10%;
-  margin-top: 70px;
 }
