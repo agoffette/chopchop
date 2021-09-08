@@ -60,6 +60,7 @@ body {
 
 .highlight {
   background: linear-gradient(to top, rgba(255, 138, 250, 1) 0%, rgba(255, 138, 250, 1) 40%, transparent 40.01%) no-repeat left bottom / 100% 100%;
+  font-size: 26px;
 }
 
 @media screen and (max-width:750px) {
@@ -72,6 +73,7 @@ body {
   }
   .pourquoi-chopchop {
     margin: 0 !important;
+    padding-bottom: 20px;
   }
   .txt-pourquoi-chopchop {
     margin: 8vw !important;
